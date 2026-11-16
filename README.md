@@ -18,7 +18,9 @@ A lightweight, cross-platform trip expense calculator to easily split costs and 
 - Available as a web app and a native Android application.
 
 ## 📸 Screenshots
-![workspace1](WS1.jpg)
-![workspace1](WS2.jpg)
-![workspace1](WS3.jpg)
-![workspace1](WS4.jpg)
+<p align="center">
+  <img src="WS1.jpg" width="200">
+  <img src="WS2.jpg" width="200">
+  <img src="WS3.jpg" width="200">
+  <img src="WS4.jpg" width="200">
+</p>
