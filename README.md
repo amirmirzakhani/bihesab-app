@@ -1,29 +1,24 @@
-# بی‌حساب — ساخت APK برای کافه‌بازار / مایکت
+# 🏕️ Bihesab - Trip Expense Calculator
 
-شناسه پکیج: `ir.amirzakhani.bihesab` (بعد از انتشار قابل تغییر نیست)
+A lightweight, cross-platform trip expense calculator to easily split costs and settle debts among friends. Built with Vanilla Web Technologies and converted to a native Android app using Capacitor.
 
-## پیش‌نیاز
-- Node.js (نسخه ۲۰ یا بالاتر)
-- Android Studio (آخرین نسخه، همراه با JDK داخلی‌اش)
+## 🚀 Live Demo & Download
+- 🌐 **Live Web Version:** [لینک سایتی که برنامه را در آن گذاشتی قرار بده]
+- 📱 **Download for Android (Cafe Bazaar):** [لینک برنامه در کافه‌بازار را اینجا قرار بده]
 
-## مراحل
-1. داخل پوشه پروژه: `npm install`
-2. همگام‌سازی فایل‌های وب با اندروید: `npx cap sync android`
-3. باز کردن در Android Studio: `npx cap open android`
-4. صبر کن تا Gradle Sync تمام شود (بار اول اینترنت لازم دارد).
-5. ساخت keystore و خروجی امضاشده:
-   Build ← Generate Signed Bundle / APK ← APK ← Create new keystore
-   **فایل keystore و رمزها را جای امن نگه دار؛ آپدیت‌های بعدی باید با همان کلید امضا شوند.**
-6. خروجی در `android/app/release/` ساخته می‌شود؛ همین APK را در پنل توسعه‌دهنده بازار/مایکت آپلود کن.
+## 🛠️ Technologies Used
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Mobile Packaging:** Capacitor (Cross-platform native runtime)
+- **State Management & Storage:** LocalStorage API
 
-## بعد از هر تغییر در www/
-`npx cap sync android` و دوباره Build.
+## ✨ Features
+- Add members to a trip and record expenses dynamically.
+- Calculate exact debts and who owes whom.
+- Clean and responsive User Interface.
+- Available as a web app and a native Android application.
 
-## تغییر نسخه (برای آپدیت)
-در `android/app/build.gradle`: `versionCode` را یکی زیاد کن و `versionName` را عوض کن.
-
-## آیکون و splash
-فایل‌های اصلی در پوشه `assets/` هستند. بعد از تغییرشان: `npm run icons`
-
-## تست سریع در مرورگر
-داخل `www/` اجرا کن: `python3 -m http.server`
+## 📸 Screenshots
+![workspace1](WS1.jpg)
+![workspace1](WS2.jpg)
+![workspace1](WS3.jpg)
+![workspace1](WS4.jpg)
