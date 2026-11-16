@@ -1,23 +1,28 @@
-# 🏕️ Bihesab - Trip Expense Calculator
+<div dir="rtl">
 
-A lightweight, cross-platform trip expense calculator to easily split costs and settle debts among friends. Built with Vanilla Web Technologies and converted to a native Android app using Capacitor.
+# 🏕️ بی‌حساب (Bihesab) - اپلیکیشن محاسبه دونگ سفر
 
-## 🚀 Live Demo & Download
-- 🌐 **Live Web Version:** [لینک سایتی که برنامه را در آن گذاشتی قرار بده]
-- 📱 **Download for Android (Cafe Bazaar):** [لینک برنامه در کافه‌بازار را اینجا قرار بده]
+یک برنامه سبک و چندسکویی (Cross-platform) برای محاسبه و تقسیم آسان هزینه‌های سفر و تسویه‌حساب بین دوستان. این پروژه با تکنولوژی‌های استاندارد وب ساخته شده و با استفاده از Capacitor به اپلیکیشن بومی (Native) اندروید تبدیل شده است.
 
-## 🛠️ Technologies Used
-- **Frontend:** HTML5, CSS3, Vanilla JavaScript
-- **Mobile Packaging:** Capacitor (Cross-platform native runtime)
-- **State Management & Storage:** LocalStorage API
+## 🚀 دمو و دانلود
+* 🌐 **نسخه تحت وب (آنلاین):** [https://amirzakhani.ir/bihesab]
+* 📱 **دانلود نسخه اندروید (کافه‌بازار):** [http://cafebazaar.ir/app/?id=ir.amirzakhani.bihesab&ref=share]
 
-## ✨ Features
-- Add members to a trip and record expenses dynamically.
-- Calculate exact debts and who owes whom.
-- Clean and responsive User Interface.
-- Available as a web app and a native Android application.
+## 🛠️ تکنولوژی‌های استفاده شده
+* **فرانت‌اند (Frontend):** HTML5, CSS3, Vanilla JavaScript
+* **تبدیل به موبایل (Mobile Packaging):** Capacitor
+* **ذخیره‌سازی داده‌ها:** LocalStorage API
 
-## 📸 Screenshots
+## ✨ ویژگی‌ها و امکانات
+* امکان افزودن اعضای گروه به سفر و ثبت پویای هزینه‌ها
+* محاسبه دقیق بدهی‌ها و مشخص کردن سهم هر فرد در تسویه‌حساب
+* رابط کاربری ساده، تمیز و کاملاً واکنش‌گرا (Responsive)
+* قابل اجرا به صورت وب‌اپلیکیشن و اپلیکیشن مستقل اندروید
+
+## 📸 تصاویر محیط برنامه
+
+</div>
+
 <p align="center">
   <img src="WS1.jpg" width="200">
   <img src="WS2.jpg" width="200">
