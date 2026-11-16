@@ -1,0 +1,9 @@
+{
+  "appId": "ir.amirzakhani.bihesab",
+  "appName": "بی‌حساب",
+  "webDir": "www",
+  "backgroundColor": "#f5f9ff",
+  "android": {
+    "allowMixedContent": false
+  }
+}
